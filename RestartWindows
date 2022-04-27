@@ -1,0 +1,5 @@
+shutdown /r /t 0
+
+# /r - restart
+# /t - timer
+#  0 - replace with number of seconds(delay)
