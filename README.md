@@ -1,3 +1,3 @@
-RestartWindows - restart command
+RestartWindows - Restart command
 
-BulkEmailList - broadcast messages to a mass mailing list on Exchange online
+BulkEmailList - Script that broadcast messages to a mass mailing list on Microsoft Exchange online
