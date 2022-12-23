@@ -18,8 +18,8 @@ Full Name: $LastName, $FirstName</br>
 UserName: $UserName</br>
 Password: $Password</br>
 </br>
-Thank you for taking a course at our school,</br>
-The Faculty
+You will be required to change your password on first login</br>
+
 "@
 
 Send-MailMessage -Body $mailBody -BodyAsHtml `
