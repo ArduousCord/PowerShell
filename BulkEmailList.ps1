@@ -12,13 +12,13 @@ Write-Host "Email Address: $Recipient"
 $mailBody = 
 @"
 Hello $FirstName,</br>
-We have created a user account for your Institution the credentials are as follows:</br>
+Your new account has successfully been created. Your credentials are as follows:</br>
 </br>
 Full Name: $LastName, $FirstName</br>
 UserName: $UserName</br>
 Password: $Password</br>
 </br>
-You will be required to change your password on first login</br>
+You will be required to change your password the first time you login</br>
 
 "@
 
