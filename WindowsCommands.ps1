@@ -1,4 +1,3 @@
-
 #Windows Commandline Essentials
 
 ciper /E  #encrypt every file in the current folder
